@@ -1,4 +1,5 @@
-import java.util.Collection;
+package com.hilleljavaelementary;
+import java.util.Map;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -28,7 +29,7 @@ public class DatabaseValidator {
         return matcher.find(0);
     }
 
-    public static <T> boolean isCollectionEmpty (Collection<T> collection) {
+    public static boolean isCollectionEmpty (Map collection) {
         return (Objects.isNull(collection) || collection.isEmpty());
     }
 }
