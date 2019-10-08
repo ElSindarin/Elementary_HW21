@@ -19,7 +19,7 @@ public class DatabaseValidator {
     }
 
     public static boolean isVINValidated (String vin) {
-        return isValidated("(^\\d{1}[A-Z]{4}\\d{2}[A-Z]{4}\\d{6})|(^[0]$)",vin);
+        return isValidated("(^\\d{1}[A-Z]{4}\\d{2}[A-Z]{4}\\d{6}$)|(^[0]$)",vin);
     }
 
     public static boolean isValidated (String regex, String object) {
