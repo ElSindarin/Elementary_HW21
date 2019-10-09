@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0676b83-0bda-4018-9012-03c06af536f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hilleljavaelementary/DatabaseValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hilleljavaelementary/DatabaseValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/validationLibrary-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/validationLibrary-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570485940324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added $ to regex in VIN validator">
+      <created>1570552192369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570552192369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -228,7 +234,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed collection type to Map" />
     <MESSAGE value="added 0 to valid types of VIN and Reg Num" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 0 to valid types of VIN and Reg Num" />
+    <MESSAGE value="added $ to regex in VIN validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added $ to regex in VIN validator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Objects.java" />

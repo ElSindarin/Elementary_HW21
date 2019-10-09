@@ -1,4 +1,7 @@
 package com.hilleljavaelementary;
+
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Map;
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -11,7 +14,7 @@ public class DatabaseValidator {
     }
 
     public static boolean isStringEmpty (String string) {
-        return (Objects.isNull(string) || string.length() == 0);
+        return (Objects.isNull(string) || string.length() == 0 || StringUtils.isBlank(string));
     }
 
     public static boolean isNameValidated (String name) {
